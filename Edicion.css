@@ -1,0 +1,82 @@
+body{
+    background-color:darkgrey;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+p{
+  font-size: 20px;
+  text-align: left;
+  color: black;
+}
+header{
+    background-color:whitesmoke;
+    border: black solid;
+}
+header h1{
+  font-size: 60px;
+}
+nav ul{
+  display: inline-block;
+  text-align: left;
+  font-size: 20px;
+}
+nav li{
+  list-style: none;
+  display: inline-block;
+  text-align: left;
+  margin-inline: 5px;
+}
+article
+{
+background-color: cornflowerblue;
+border: solid black;
+}
+section
+{
+ background-color: whitesmoke;
+ margin: 2%;
+ margin-top: 2%;
+ border: solid black;
+ margin-bottom: 2%;
+ padding-left: 2%;
+
+}
+
+ h1
+{
+ font-size: 40px;
+ text-align: center;
+}
+ h2
+{
+ font-size: 30px;
+ text-align: left;
+}
+h3
+{
+  font-size: 25px;
+  text-align: left;
+}
+#notas
+{
+ color: rgb(74, 74, 75);
+ font-size: 20px;
+ text-align: left;
+}
+#dia_1_imagen_1{
+  border: solid black;
+  margin-top: 2%;
+  margin-left:1%; 
+  width:45%;
+  height:45%;
+
+}
+#dia_1_imagen_2
+{
+  border: solid black;
+  margin-top: 2%; 
+  margin-right:1%; 
+  width: 50%;
+  height:50%;
+}

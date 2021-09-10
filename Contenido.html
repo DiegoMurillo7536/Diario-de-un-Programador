@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Edicion.css">
+    <title>Historia de un programador</title>
+</head>
+
+<body>
+    <script src="Logica.js"></script>
+    <header>
+        <h1>Historia de un programador</h1>
+
+        <nav>
+            <ul>
+                <li id="menu"><a href="">Diario</a>
+                <li id="menu1">Ejercicios en js (fáciles)</li>
+                <li id="menu1">Hoja de vida</li>
+                <li id="menu1">Proyectos</li>
+
+            </ul>
+            </li>
+    </header>
+    <br>
+    <br>
+    <article>
+        <h1>Diario de un programador</h1>
+        <section>
+
+
+            <!--Dia1-->
+            <h2>Día 1(10/06/2021)</h2>
+            <p> Hace unos días tenía una gran idea para programar,pero sin embargo decidí no hacerla por falta de tiempo
+                (en realidad andaba procrastinando),así que en el día de hoy <br>
+                tengo pensado repasar conceptos y sacar de eso,algunas ideas.Voy a comenzar con la idea de crear un
+                horario como Proyectos</p>
+
+            <h3> Progreso:</h3>
+            <p>Hace unos días, como mencioné,tuve la idea, solo puse el titulo y le agregué un diseño "normal". El día
+                de hoy,lo que hice fue un menu sin tanto diseño y además de ello,<br>
+                encontré una fuente que me gustó,así que la puse y fui cambiando el tamaño de letra para que quedara un
+                poco más organizado. Así quedó el resultado:</p>
+            <img src="../Historiadeunprogramador/Imagenes/DIA_1IMAGEN_1.png" alt="" id="dia_1_imagen_1">
+            <img src="../Historiadeunprogramador/Imagenes/dia1_imagen_2.PNG.jpg" alt="" id="dia_1_imagen_2">
+            <br>
+        </section>
+        <!--Termina el Dia1-->
+        <br>
+        <br>
+        <!--Dia2-->
+        <section>
+
+            <h2> Día 2(11/06/2021)</h2>
+            <p> El día de hoy pensé en hacer una función en la cual se genere un botón,esto sería un gran avance para mi
+                gran proyecto de crear un horario en el cual,el usuario pueda insertar <br>
+                los datos que desee. Pero por ahora sólo haremos el botón. También tengo planeado cambiarle el color al
+                section porque me gustaría que fuera igual que el header</p>
+
+            <h3>Progreso</h3>
+            <p>Me di de cuenta que habia un error entre el section por un flotante que puse,es por eso mismo que se los
+                quité y se arregló todo el problema del section. </p>
+
+            <script>
+                function prueba() {
+                    var boton = document.createElement('button')
+                    boton.type = 'button';
+                    boton.innerText = 'Genera un boton'
+                    document.body.appendChild(boton);
+                };
+            </script>
+
+            <form action="">
+                <input type="button" value="magia" onclick="prueba();">
+            </form>
+        </section>
+        <!--Termina el dia2-->
+
+        <!--Dia3-->
+        <section>
+
+            <h2>Día 3(14/06/2021)</h2>
+            <p>Hoy en la noche,me dijeron que vamos a tener una reunión con el coordinador de mi colegio porque vamos a
+                hacer todo el sistema educativo de nuestra institución. El día de hoy vamos a <br>
+                intentar investigar para qué sirve el <i> document.getelementbyId()</i>,tengo desfaces con eso,así que
+                lo usaré para generar una suma. Sé que no importa mucho pero el profesor anda dando notas así <br> que
+                voy
+                investigar eso e intentaré cómo hacer un ejemplo.Primero que todo,vi que en el archivo se veía demasiado
+                pegado el texto,por lo que ando intentando mover el texto,debo pensar en cómo lo muevo <br></p>
+
+        </section>
+        <!--Termina el dia3 -->
+
+        <!-- Dia4-->
+        <section>
+            <h2> Día 4(26/06/2021)</h2>
+            <p>He estado viendo videos acerca del <i>document.elementbyod()</i> pero no lo entiendo así que comenzaré
+                por intentar ejercicios básicos en JS para reforzar bases <br>
+                haré unos botoner para imprimir los ejercicios.</p>
+
+            <p> <a href="javascript:Ejer1()" style="color: cornflowerblue;">Ejercicio 1</a> </p>
+            <div id="Ejercicio1"></div>
+
+            <p> <a href="javascript:Ejer2()" style="color: cornflowerblue;">Ejercicio 2</a> </p>
+            <div id="Problema2"></div>
+            <div id="Ejercicio2"></div>
+
+            <p> <a href="javascript:Ejer3()" style="color: cornflowerblue;">Ejercicio 3</a> </p>
+            <div id="Problema3"></div>
+            <div id="Ejercicio3"></div>
+
+            <p> <a href="javascript:Ejer4()" style="color: cornflowerblue;">Ejercicio 4</a> </p>
+            <div id="Problema4"></div>
+            <div id="Ejercicio4"></div>
+
+            <p> <a href="javascript:Ejer5()" style="color: cornflowerblue;">Ejercicio 5</a> </p>
+            <div id="Problema5"></div>
+            <div id="Ejercicio5"></div>
+
+            <p> <a href="javascript:Ejer6()" style="color: cornflowerblue;">Ejercicio 6</a> </p>
+            <div id="Problema6"></div>
+            <div id="Ejercicio6"></div>
+
+            <p> <a href="javascript:Ejer7()" style="color: cornflowerblue;">Ejercicio 7</a> </p>
+            <div id="Problema7"></div>
+            <div id="Ejercicio7"></div>
+
+            <p> <a href="javascript:Ejer8()" style="color: cornflowerblue;">Ejercicio 8</a> </p>
+            <div id="Problema8"></div>
+            <div id="Ejercicio8"></div>
+            
+
+
+
+            <h3> Progreso</h3>
+            <p>He estado reforzando bases y ya sé la función del <i>INNERHTML</i> el cual me abrió muchas ideas y
+                comenzaré a hacer los ejercicios si tengo tiempo. <br>
+                Ya después de un tiempo pude ententer el document.getelementbyid(). Pensé que era algo más complicado
+                pero creo que ya ando entendiendo el concepto de ello. <br>
+                Estoy un poco cansado,así que los ejercicios que me falten,los haré de una manera diferente,buscaré la
+                etiqueta <i>a</i> para poner el código un poco mejor</p>
+        </section>
+
+    </article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <p id="notas"><i>#Nota:Hice este sitio web con el fin de que pueda poner a prueba mis conocimientos </i></p>
+</body>
+
+
+</html>
