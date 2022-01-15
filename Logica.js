@@ -73,10 +73,10 @@ function Ejer8() {
     document.getElementById("Problema8").innerHTML="<p>Escribe un programa que pida un número y diga si es divisible por 2";
     num=parseInt(prompt("Escribe un número y te digo si es divisible por 2"));
     num_div=num/2;
-    if ((num_div%2)===0) {
-        document.getElementById("Ejercicio8").innerHTML="<p>El número sí es divisible entre 2,el resultado es "+num_div+" y su residuo es:"+num_div%2;
+    if ((num_div%2)==0) {
+        document.getElementById("Ejercicio8").innerHTML="<p>El número sí es divisible entre 2,el resultado es "+num_div;
     }else{
-        document.getElementById("Ejercicio8").innerHTML="<p>El número no es divisible entre 2,el resultado es "+num_div+" y su residuo es:"+num_div%2;
+        document.getElementById("Ejercicio8").innerHTML="<p>El número no es divisible entre 2,el resultado es "+num_div;s
 
 
     }
