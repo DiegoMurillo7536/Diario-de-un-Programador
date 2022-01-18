@@ -92,3 +92,16 @@ function Ejer9() {
   }
     document.getElementById("Ejercicio9").innerHTML= total.length
 }
+
+function Ejer10(string) {
+    document.getElementById("Problema10").innerHTML="<p>Escribe un programa que pida una frase y escriba las vocales que aparecen";
+   function ContarVocales(string) {
+    contador=string.match(/[aeiou]/gi).length;
+    return contador
+   }
+   frase=prompt("Escribe una frase");
+   resultado=ContarVocales(frase)
+   document.getElementById("Ejercicio10").innerHTML=resultado
+
+    
+}
