@@ -80,5 +80,15 @@ function Ejer8() {
 
 
     }
-
 } 
+function Ejer9() {
+    document.getElementById("Problema9").innerHTML="<p>Escribe un programa que pida una frase y escriba cuantas veces aparece la letra a";
+    frase=prompt("Escribe una frase");
+    total=[]
+  for (let i = 0; i < frase.length; i++) {
+     if (frase[i]==="a" ) {
+         total.push(i)
+     }
+  }
+    document.getElementById("Ejercicio9").innerHTML= total.length
+}
