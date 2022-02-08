@@ -12,7 +12,7 @@ p{
   color: black;
 }
 header{
-    background-color:whitesmoke;
+  background: linear-gradient(to right, #83a4d4, #b6fbff);  
     border: black solid;
 }
 header h1{
@@ -31,7 +31,7 @@ nav li{
 }
 article
 {
-background-color: cornflowerblue;
+background: linear-gradient(to right, #83a4d4, #b6fbff);  
 border: solid black;
 opacity: 90%;
 }
@@ -44,6 +44,8 @@ section
  margin-bottom: 2%;
  padding-left: 2%;
  transition: box-shadow 0.2s;
+ width: auto;
+ height: auto;
 
 }
 
@@ -86,5 +88,7 @@ h3
 }
 
 section:hover{
-  box-shadow: 15px 15px
+  box-shadow: 15px 15px;
+  width: 94.5%;
+  height:94.5%;
 }
